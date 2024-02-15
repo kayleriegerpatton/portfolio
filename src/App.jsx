@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from './components/Header';
 import './App.css';
+import Hero from './components/Hero';
+import Footer from './components/Footer';
 
 // TODO: change window location to hash
 function locationHashChanged() {
@@ -20,6 +22,12 @@ function locationHashChanged() {
 window.onhashchange = locationHashChanged;
 
 function App() {
-	return <Header />;
+	return (
+		<>
+			<Header />
+			<Hero />
+			<Footer />
+		</>
+	);
 }
 export default App;
