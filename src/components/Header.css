@@ -1,1 +1,17 @@
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5vw 3vw 0 3vw;
+	height: 10vh;
+}
 
+nav {
+	display: flex;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 0 16px;
+}
