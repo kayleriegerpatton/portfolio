@@ -1,3 +1,53 @@
 #hero {
-	height: 90vh;
+	height: 84vh;
+	padding: 1.5vh 6vw;
+}
+
+.hero-emphasis {
+	font-family: 'Playfair Display';
+	font-size: 14vw;
+}
+
+#hero-emphasis-1 {
+	text-indent: 5vw;
+	margin-bottom: -5vh;
+}
+
+#hero-emphasis-2 {
+	text-indent: 13vw;
+}
+
+#hero-text-1 {
+	margin-bottom: -3vh;
+	text-indent: 3vw;
+}
+
+#hero-text-2 {
+	text-align: right;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+	#hero-text-1 {
+		font-size: 1.5rem;
+	}
+	#hero-text-2 {
+		font-size: 1.5rem;
+		text-align: left;
+		text-indent: 40vw;
+	}
+	#hero-emphasis-1 {
+		margin-bottom: -7vh;
+	}
+
+	#hero-emphasis-2 {
+		margin-bottom: -1vh;
+	}
+}
+
+/* laptop */
+@media (min-width: 1200px) {
+	#hero-emphasis-1 {
+		margin-bottom: -10vh;
+	}
 }
