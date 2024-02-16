@@ -28,8 +28,8 @@ function App() {
 	return (
 		<>
 			<Header />
-			<Hero />
 			<main>
+				<Hero />
 				<AboutSection />
 				<ProjectsSection />
 				<ContactSection />
