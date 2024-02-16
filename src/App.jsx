@@ -3,6 +3,9 @@ import Header from './components/Header';
 import './App.css';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
+import AboutSection from './components/AboutSection';
+import ProjectsSection from './components/ProjectsSection';
+import ContactSection from './components/ContactSection';
 
 // TODO: change window location to hash
 function locationHashChanged() {
@@ -26,6 +29,11 @@ function App() {
 		<>
 			<Header />
 			<Hero />
+			<main>
+				<AboutSection />
+				<ProjectsSection />
+				<ContactSection />
+			</main>
 			<Footer />
 		</>
 	);

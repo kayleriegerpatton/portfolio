@@ -1,3 +1,11 @@
+:root {
+	--dark-purple: #120e2bff;
+	--tropical-indigo: #9683ecff;
+	--periwinkle: #c5b8ffff;
+	--black-olive: #36392eff;
+	--jonquil: #f0c808ff;
+}
+
 * {
 	border: 1px solid red;
 	box-sizing: border-box;
