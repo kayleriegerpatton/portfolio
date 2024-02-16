@@ -1,0 +1,13 @@
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1.5vw 3vw;
+	height: 30vh;
+}
+
+.icon {
+	color: var(--tropical-indigo);
+	padding: 16px;
+}
