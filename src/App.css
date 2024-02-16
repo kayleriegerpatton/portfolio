@@ -6,6 +6,7 @@
 	--jonquil: #f0c808ff;
 	font-family: sans-serif;
 	font-size: 16px;
+	color: var(--tropical-indigo);
 }
 
 * {

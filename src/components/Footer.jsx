@@ -8,9 +8,13 @@ function Footer() {
 	return (
 		<footer>
 			<div>
-				<FontAwesomeIcon icon={faSquareGithub} className="icon" size="2xl" />
-				<FontAwesomeIcon icon={faLinkedin} className="icon" size="2xl" />
-				<FontAwesomeIcon icon={faEnvelope} className="icon" size="2xl" />
+				<FontAwesomeIcon
+					icon={faSquareGithub}
+					className="footer-icon"
+					size="2xl"
+				/>
+				<FontAwesomeIcon icon={faLinkedin} className="footer-icon" size="2xl" />
+				<FontAwesomeIcon icon={faEnvelope} className="footer-icon" size="2xl" />
 			</div>
 			<p>Built by Kayle Rieger Patton</p>
 		</footer>

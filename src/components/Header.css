@@ -11,11 +11,20 @@ header {
 	font-size: 1.2rem;
 }
 
+#logo {
+	padding-left: 16px;
+}
+
 nav {
 	display: flex;
 }
-
+/* TODO: add clicked styling */
 nav a {
 	text-decoration: none;
 	padding: 0 16px;
+}
+
+.header-icon {
+	color: var(--tropical-indigo);
+	margin: 2px 0 0 8px;
 }
