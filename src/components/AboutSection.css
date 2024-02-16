@@ -1,0 +1,24 @@
+#about-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#about-heading {
+	font-size: 1rem;
+	margin-bottom: 2rem;
+}
+
+#about-text {
+	font-size: 1.5rem;
+	max-width: 50%;
+}
+
+@media (max-width: 767px) {
+	#about-section {
+		flex-direction: column;
+	}
+	#about-text {
+		max-width: 100%;
+	}
+}

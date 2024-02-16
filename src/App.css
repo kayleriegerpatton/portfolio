@@ -4,6 +4,8 @@
 	--periwinkle: #c5b8ffff;
 	--black-olive: #36392eff;
 	--jonquil: #f0c808ff;
+	font-family: sans-serif;
+	font-size: 16px;
 }
 
 * {
@@ -11,4 +13,21 @@
 	box-sizing: border-box;
 	margin: 0px;
 	padding: 0px;
+}
+
+main {
+	padding: 0 3vw;
+}
+
+hr {
+	height: 3px;
+	border-width: 0;
+	background-color: var(--tropical-indigo);
+	margin: 16px auto;
+}
+
+@media (max-width: 767px) {
+	main {
+		padding: 0 6vw;
+	}
 }
