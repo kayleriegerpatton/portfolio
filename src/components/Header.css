@@ -18,13 +18,18 @@ header {
 nav {
 	display: flex;
 }
-/* TODO: add clicked styling */
+
 nav a {
 	text-decoration: none;
 	padding: 0 16px;
+	color: var(--tropical-indigo);
+}
+
+nav a:visited {
+	color: var(--tropical-indigo);
 }
 
 .header-icon {
-	color: var(--tropical-indigo);
+	color: var(--jonquil);
 	margin: 2px 0 0 8px;
 }
