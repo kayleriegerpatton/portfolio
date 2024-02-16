@@ -8,6 +8,7 @@ function Footer() {
 	return (
 		<footer>
 			<div>
+				{/* TODO: add anchor tags */}
 				<FontAwesomeIcon
 					icon={faSquareGithub}
 					className="footer-icon"

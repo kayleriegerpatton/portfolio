@@ -1,0 +1,10 @@
+#contact-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#contact-heading {
+	font-size: 1rem;
+	margin-bottom: 2rem;
+}
