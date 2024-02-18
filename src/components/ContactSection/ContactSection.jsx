@@ -1,5 +1,5 @@
 import React from 'react';
-import personalLogo from '../../public/assets/images/personal-logo.png';
+import personalLogo from '../../../public/assets/images/personal-logo.png';
 import './ContactSection.css';
 
 function ContactSection() {

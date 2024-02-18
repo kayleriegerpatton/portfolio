@@ -1,0 +1,18 @@
+#contact-section {
+	display: flex;
+	flex-direction: column;
+}
+
+#contact-heading {
+	font-size: 1rem;
+	margin-bottom: 2rem;
+}
+
+#contact-text {
+	margin-bottom: 3rem;
+	line-height: 1.5;
+}
+
+#contact-text :visited {
+	color: var(--tropical-indigo);
+}

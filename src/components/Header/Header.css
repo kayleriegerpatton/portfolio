@@ -5,6 +5,7 @@ header {
 	align-items: center;
 	padding: 1.5vw 3vw 0 3vw;
 	height: 16vh;
+	width: 100%;
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
@@ -13,23 +14,4 @@ header {
 
 #logo {
 	padding-left: 16px;
-}
-
-nav {
-	display: flex;
-}
-
-nav a {
-	text-decoration: none;
-	padding: 0 16px;
-	color: var(--tropical-indigo);
-}
-
-nav a:visited {
-	color: var(--tropical-indigo);
-}
-
-.header-icon {
-	color: var(--jonquil);
-	margin: 2px 0 0 8px;
 }

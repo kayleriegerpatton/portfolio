@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import './App.css';
-import Hero from './components/Hero';
-import Footer from './components/Footer';
-import AboutSection from './components/AboutSection';
-import ProjectsSection from './components/ProjectsSection';
-import ContactSection from './components/ContactSection';
+import Hero from './components/Hero/Hero';
+import Footer from './components/Footer/Footer';
+import AboutSection from './components/AboutSection/AboutSection';
+import ProjectsSection from './components/ProjectsSection/ProjectsSection';
+import ContactSection from './components/ContactSection/ContactSection';
 
 // TODO: change window location to hash
 function locationHashChanged() {
