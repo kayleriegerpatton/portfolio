@@ -26,7 +26,7 @@ window.onhashchange = locationHashChanged;
 
 function App() {
 	return (
-		<>
+		<div id="site-wrapper">
 			<Header />
 			<main>
 				<Hero />
@@ -35,7 +35,7 @@ function App() {
 				<ContactSection />
 			</main>
 			<Footer />
-		</>
+		</div>
 	);
 }
 export default App;

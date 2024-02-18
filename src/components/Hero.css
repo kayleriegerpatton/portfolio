@@ -1,53 +1,85 @@
 #hero {
-	height: 84vh;
-	padding: 1.5vh 6vw;
+	min-height: 50vh;
+	font-size: 1.2rem;
+	margin-bottom: 5vh;
 }
 
 .hero-emphasis {
 	font-family: 'Playfair Display';
-	font-size: 14vw;
-}
-
-#hero-emphasis-1 {
-	text-indent: 5vw;
-	margin-bottom: -5vh;
-}
-
-#hero-emphasis-2 {
-	text-indent: 13vw;
+	font-size: 20vw;
 }
 
 #hero-text-1 {
+	margin-top: 7vh;
+	text-indent: 5vw;
+}
+
+#hero-emphasis-1 {
 	margin-bottom: -3vh;
-	text-indent: 3vw;
+}
+
+#hero-emphasis-2 {
+	text-indent: 5vw;
+	margin-bottom: 2vh;
 }
 
 #hero-text-2 {
-	text-align: right;
+	text-indent: 35vw;
+	margin-bottom: 7vh;
 }
 
 /* tablet */
 @media (min-width: 768px) {
+	#hero {
+		height: 84vh;
+	}
+
 	#hero-text-1 {
 		font-size: 1.5rem;
+		text-indent: 10vw;
 	}
-	#hero-text-2 {
-		font-size: 1.5rem;
-		text-align: left;
-		text-indent: 40vw;
+
+	.hero-emphasis {
+		font-size: 17vw;
 	}
+
 	#hero-emphasis-1 {
 		margin-bottom: -7vh;
+		text-indent: 5vw;
 	}
 
 	#hero-emphasis-2 {
 		margin-bottom: -1vh;
+		text-indent: 18vw;
+	}
+
+	#hero-text-2 {
+		font-size: 1.5rem;
+		text-indent: 50vw;
 	}
 }
 
 /* laptop */
 @media (min-width: 1200px) {
+	.hero-emphasis {
+		font-size: 15vw;
+	}
+
+	#hero-text-1 {
+		text-indent: 15vw;
+		margin-bottom: -3vh;
+	}
+
 	#hero-emphasis-1 {
-		margin-bottom: -10vh;
+		margin-bottom: -13vh;
+		text-indent: 10vw;
+	}
+
+	#hero-emphasis-2 {
+		text-indent: 20vw;
+	}
+
+	#hero-text-2 {
+		text-indent: 53vw;
 	}
 }
