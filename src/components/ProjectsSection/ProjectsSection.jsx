@@ -2,10 +2,12 @@ import React from 'react';
 
 function ProjectsSection() {
 	return (
-		<section>
+		<div>
 			<hr />
-			<p>Projects Section</p>
-		</section>
+			<section id="projects-section">
+				<p>Projects Section</p>
+			</section>
+		</div>
 	);
 }
 export default ProjectsSection;
