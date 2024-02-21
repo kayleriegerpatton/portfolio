@@ -39,7 +39,7 @@ hr {
 	height: 1px;
 	width: 1px;
 	margin: -1px;
-	/* overflow: hidden; */
+	overflow: hidden;
 	padding: 0;
 	position: absolute;
 }

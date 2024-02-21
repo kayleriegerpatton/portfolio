@@ -1,12 +1,11 @@
 header {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	align-items: start;
 	justify-content: space-between;
-	align-items: center;
 	padding: 1.5vw 3vw 0 3vw;
 	height: 16vh;
 	width: 100%;
-	/* position: -webkit-sticky; */
 	position: sticky;
 	top: 0;
 	font-size: 1.2rem;
@@ -23,34 +22,40 @@ header {
 }
 
 nav {
+	display: none;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 100%;
+	margin-bottom: 0.25rem;
+}
+
+nav.open {
 	display: flex;
+	margin-top: 1.25rem;
 }
 
 header .menu {
-	display: none;
+	display: flex;
 	position: absolute;
-	top: 3vh;
-	right: 3vw;
+	top: 6vh;
+	right: 6vw;
 	flex-direction: column;
 	justify-content: space-between;
 	width: 2.25rem;
 	height: 2rem;
-}
-
-header .menu span {
-	height: 0.3rem;
-	width: 100%;
-	background-color: var(--tropical-indigo);
+	color: var(--tropical-indigo);
 	border-radius: 0.2rem;
+	border: none;
+	background-color: white;
 }
 
 nav a {
 	text-decoration: none;
-	padding: 0.5rem;
-	margin: 0 0.5rem;
 	color: var(--tropical-indigo);
-	align-self: center;
 	border-radius: 0.5rem;
+	align-self: flex-end;
+	margin: 0.2rem 0.5rem;
+	padding: 0.5rem;
 }
 
 nav a:hover {
@@ -66,30 +71,23 @@ nav a:visited {
 	margin: 2px 0 0 8px;
 }
 
-@media (max-width: 480px) {
-	header .menu {
-		display: flex;
+/* tablet & larger */
+@media (min-width: 576px) {
+	header {
+		flex-direction: row;
+		align-items: center;
 	}
 
-	header {
-		flex-direction: column;
-		align-items: start;
+	header .menu {
+		display: none;
 	}
 
 	nav {
-		display: none;
-		flex-direction: column;
-		justify-content: flex-end;
-		width: 100%;
-		margin-bottom: 0.25rem;
-	}
-
-	nav.open {
 		display: flex;
+		flex-direction: row;
 	}
 
 	nav a {
-		align-self: flex-end;
-		margin: 0.2rem 0.5rem;
+		align-self: center;
 	}
 }

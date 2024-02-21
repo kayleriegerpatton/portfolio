@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import { faUpRightFromSquare, faBars } from '@fortawesome/free-solid-svg-icons';
 import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 
@@ -23,16 +23,17 @@ function Header() {
 			</HashLink>
 			{/* <Nav />
 			 */}
-			<div
+			<button
+				type="button"
+				name="menu"
 				className="menu"
 				onClick={() => {
 					setMenuOpen(!menuOpen);
 				}}
 			>
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
+				<span className="hidden">Menu</span>
+				<FontAwesomeIcon icon={faBars} className="menu-icon" size="2x" />
+			</button>
 			<nav className={menuOpen ? 'open' : ''}>
 				<HashLink
 					to="#about-section"
