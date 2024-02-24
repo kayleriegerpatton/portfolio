@@ -50,7 +50,11 @@ function Header() {
 							className={menuOpen ? 'hidden' : ''}
 							size="2x"
 						/>
-						<FontAwesomeIcon icon={faX} className="hidden" size="2x" />
+						<FontAwesomeIcon
+							icon={faX}
+							className={menuOpen ? '' : 'hidden'}
+							size="2x"
+						/>
 					</button>
 				)}
 
