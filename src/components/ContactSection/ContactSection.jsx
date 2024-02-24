@@ -18,10 +18,10 @@ function ContactSection() {
 						@LinkedIn
 					</a>
 				</div>
-
 				<img
 					src={personalLogo}
 					alt="Kayle's personal brand graphic, a black and white design reminiscent of chevrons"
+					id="contact-img"
 				/>
 			</section>
 		</div>

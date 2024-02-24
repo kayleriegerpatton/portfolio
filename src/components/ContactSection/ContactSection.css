@@ -16,3 +16,14 @@
 #contact-text :visited {
 	color: var(--tropical-indigo);
 }
+
+@media (min-width: 768px) {
+	#contact-section {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	#contact-img {
+		max-width: 50%;
+	}
+}
