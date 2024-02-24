@@ -12,14 +12,6 @@ import { useMediaQuery } from 'react-responsive';
 
 import './Header.css';
 
-const scrollWithOffset = (element) => {
-	element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-	// window.scrollTo(500, 0);
-	// const yOffset = -800;
-	// const yCoordinate = element.getBoundingClientRect().top + window.scrollY;
-	// window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
-};
-
 function Header() {
 	const [menuOpen, setMenuOpen] = useState(false);
 
@@ -29,9 +21,16 @@ function Header() {
 
 	const mobile = useMediaQuery({ query: '(max-width: 575px' });
 
+	const scrollWithOffset = (el) =>
+		window.scrollTo({
+			// nonfunctional if using scrollY instead of pageYOffset
+			top: el.getBoundingClientRect().top + window.pageYOffset - 125,
+			behavior: 'smooth',
+		});
+
 	return (
 		<header>
-			<HashLink id="logo" to="#hero" smooth>
+			<HashLink id="logo" to="#top" smooth>
 				Kayle
 			</HashLink>
 			<div ref={ref}>
