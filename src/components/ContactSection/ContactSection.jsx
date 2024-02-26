@@ -9,7 +9,8 @@ function ContactSection() {
 			<section id="contact-section">
 				<h2 id="contact-heading">CONTACT</h2>
 				<div id="contact-text">
-					<p>kayle.patton22@gmail.com</p>
+					<a href="mailto:kayle.patton22@gmail.com">kayle.patton22@gmail.com</a>
+					<br />
 					<a
 						href="https://www.linkedin.com/in/kaylerieger"
 						target="_blank"

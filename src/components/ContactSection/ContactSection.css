@@ -13,6 +13,10 @@
 	line-height: 1.5;
 }
 
+#contact-text a {
+	color: var(--tropical-indigo);
+}
+
 #contact-text :visited {
 	color: var(--tropical-indigo);
 }
