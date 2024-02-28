@@ -145,7 +145,7 @@
 		"year": ""
 	},
 	{
-		"id": 12,
+		"id": 13,
 		"title": "Stockscape",
 		"technologies": [
 			"Chart.js",
@@ -162,16 +162,6 @@
 		"deployedUrl": ""
 	},
 	{
-		"id": 13,
-		"title": "",
-		"technologies": [],
-		"description": "",
-		"imageSrc": "",
-		"altText": "",
-		"githubUrl": "",
-		"deployedUrl": ""
-	},
-	{
 		"id": 14,
 		"title": "",
 		"technologies": [],
@@ -183,6 +173,16 @@
 	},
 	{
 		"id": 15,
+		"title": "",
+		"technologies": [],
+		"description": "",
+		"imageSrc": "",
+		"altText": "",
+		"githubUrl": "",
+		"deployedUrl": ""
+	},
+	{
+		"id": 16,
 		"title": "",
 		"technologies": [],
 		"description": "",
