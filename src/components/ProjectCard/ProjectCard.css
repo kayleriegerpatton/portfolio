@@ -1,0 +1,48 @@
+.project-card {
+	padding: 5vh 3vw 3vh 3vw;
+	margin: 0 1vw 5vh 1vw;
+	/* background-color: rgb(27, 21, 66); */
+}
+
+.project-card p {
+	font-size: 1.1rem;
+}
+
+.project-image {
+	max-width: 100%;
+	border-radius: 4%;
+	margin-bottom: 1.5rem;
+}
+
+.project-title {
+	font-size: 1.3rem;
+	margin-bottom: 0.5rem;
+}
+
+.project-desc {
+	margin-bottom: 0.5rem;
+	line-height: 1.2;
+}
+
+.project-tech {
+	margin-bottom: 0.5rem;
+	line-height: 1.7;
+	word-spacing: 0.5rem;
+}
+
+.project-icon {
+	margin: 0 1rem 2.5rem 0;
+	color: var(--tropical-indigo);
+}
+
+@media (min-width: 768px) {
+	.project-image {
+		max-width: 50%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.project-card {
+		max-width: 30%;
+	}
+}

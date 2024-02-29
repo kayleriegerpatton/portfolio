@@ -2,3 +2,16 @@
 	font-size: 1rem;
 	margin-bottom: 2rem;
 }
+
+#projects-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+@media (min-width: 768px) {
+	#projects-container {
+		/* flex-direction: row; */
+		flex-wrap: wrap;
+	}
+}
