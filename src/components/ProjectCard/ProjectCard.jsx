@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareGithub } from '@fortawesome/free-brands-svg-icons';
 import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
@@ -13,30 +14,28 @@ function ProjectCard({ image, altText, title, desc, tech, github, live }) {
 			<h3 className="project-title">{title}</h3>
 			<p className="project-desc">{desc}</p>
 			<p className="project-tech">{tech.join('\xa0 \xa0 ')}</p>
-			<a
-				aria-label={`${title}-github`}
-				href={github}
-				target="_blank"
-				rel="noreferrer"
-			>
-				<FontAwesomeIcon
-					icon={faSquareGithub}
+			{github.length > 0 && (
+				<Link
+					aria-label={`${title} github link`}
+					to={github}
+					target="_blank"
+					rel="noreferrer"
 					className="project-icon"
-					size="2xl"
-				/>
-			</a>
-			<a
-				aria-label={`${title}-live`}
-				href={live}
-				target="_blank"
-				rel="noreferrer"
-			>
-				<FontAwesomeIcon
-					icon={faUpRightFromSquare}
-					className="project-icon"
-					size="xl"
-				/>
-			</a>
+				>
+					<FontAwesomeIcon icon={faSquareGithub} size="2xl" />
+				</Link>
+			)}
+			{live.length > 0 && (
+				<Link
+					aria-label={`${title} live link`}
+					href={live}
+					target="_blank"
+					rel="noreferrer"
+					className="project-icon live-project-icon"
+				>
+					<FontAwesomeIcon icon={faUpRightFromSquare} size="xl" />
+				</Link>
+			)}
 		</div>
 	);
 }
