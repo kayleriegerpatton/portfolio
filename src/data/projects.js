@@ -11,6 +11,7 @@ import techTalk from '../images/project-visuals/techTalk.png';
 import soundArtSmart from '../images/project-visuals/soundArtSmart.png';
 import unified from '../images/project-visuals/unified.png';
 import stockscape from '../images/project-visuals/stockscape.gif';
+import metrikComparison from '../images/project-visuals/metrikRedesign.png';
 
 const projects = [
 	{
@@ -196,10 +197,10 @@ const projects = [
 	},
 	{
 		id: 14,
-		title: '',
-		technologies: [],
-		description: '',
-		imageSrc: '',
+		title: 'A11y Audit & Refactor',
+		technologies: ['React', 'Recharts', 'WCAG', 'WebAIM Contrast Checker'],
+		description: `Conducted an informal accessibility audit of the BBC's internal Metrik website. Redesigned the site for an improved user experience including compliance with WCAG AA guidelines, robust Help page, and clearer content hierarchy.`,
+		imageSrc: metrikComparison,
 		altText: '',
 		githubUrl: '',
 		deployedUrl: '',
