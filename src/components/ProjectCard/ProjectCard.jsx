@@ -4,16 +4,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareGithub } from '@fortawesome/free-brands-svg-icons';
 import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
-import personalLogo from '../../../public/assets/images/personal-logo.png';
 import './ProjectCard.css';
 
 function ProjectCard({ image, altText, title, desc, tech, github, live }) {
 	return (
 		<div className="project-card">
-			<img src={personalLogo} alt={altText} className="project-image" />
+			<img src={image} alt={altText} className="project-image" />
 			<h3 className="project-title">{title}</h3>
 			<p className="project-desc">{desc}</p>
-			<p className="project-tech">{tech.join(' ')}</p>
+			<p className="project-tech">{tech.join('\xa0 \xa0 ')}</p>
 			<a
 				aria-label={`${title}-github`}
 				href={github}

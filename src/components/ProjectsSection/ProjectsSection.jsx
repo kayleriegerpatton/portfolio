@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProjectsSection.css';
 import ProjectCard from '../ProjectCard/ProjectCard';
-import projects from '../../data/projects.json';
+import projects from '../../data/projects';
 
 function ProjectsSection() {
 	return (
