@@ -121,7 +121,14 @@ const projects = [
 	{
 		id: 9,
 		title: 'E-Commerce Back-End',
-		technologies: ['Express.js', 'JavaScript', 'Node.js', 'MySQL', 'moment.js'],
+		technologies: [
+			'Express.js',
+			'JavaScript',
+			'Node.js',
+			'MySQL',
+			'Postman',
+			'Moment.js',
+		],
 		description:
 			'Manage retail categories, products, and tags with this Express server and MySQL database containing 4 tables and 15 basic endpoints.',
 		imageSrc: ecommerceBackend,
