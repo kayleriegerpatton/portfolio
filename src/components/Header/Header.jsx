@@ -24,7 +24,7 @@ function Header() {
 	const scrollWithOffset = (el) =>
 		window.scrollTo({
 			// nonfunctional if using scrollY instead of pageYOffset
-			top: el.getBoundingClientRect().top + window.pageYOffset - 125,
+			top: el.getBoundingClientRect().top + window.pageYOffset - 170,
 			behavior: 'smooth',
 		});
 
