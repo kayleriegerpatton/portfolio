@@ -83,7 +83,7 @@ function Header() {
 						Contact
 					</HashLink>
 					<Link
-						to="https://www.canva.com/design/DAE4Ifi_4Ok/WT7Oh8YsOt_JQm9Z-R28dw/view?utm_content=DAE4Ifi_4Ok&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+						to="https://docs.google.com/document/u/0/d/e/2PACX-1vQEW_fcC4ZmCJPRgPFb_m8kXRKV2qhg1GaxyuiLxWuvzompKxgBpRqwRpmHr6NfEAdbXCxUG0WjyYq5/pub?pli=1"
 						target="_blank"
 						rel="noreferrer"
 					>
