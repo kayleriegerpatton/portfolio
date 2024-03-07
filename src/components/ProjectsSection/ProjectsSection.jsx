@@ -20,6 +20,7 @@ function ProjectsSection() {
 							tech={project.technologies}
 							github={project.githubUrl}
 							live={project.deployedUrl}
+							year={project.year}
 						/>
 					))}
 				</div>
