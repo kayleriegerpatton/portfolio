@@ -31,6 +31,7 @@ nav {
 nav.open {
 	display: flex;
 	margin-top: 1.25rem;
+	background-color: #1b1542;
 }
 
 header div .menu {
@@ -41,7 +42,7 @@ header div .menu {
 	height: 2rem;
 	color: var(--tropical-indigo);
 	border: none;
-	background-color: white;
+	background-color: #1b1542;
 }
 
 nav a {

@@ -1,8 +1,8 @@
 .project-card {
-	padding: 5vh 3vw 3vh 3vw;
-	margin: 0 1vw 4vh 1vw;
+	padding: 5vh 5vw;
+	margin-bottom: 4vh;
 	border-radius: 5px;
-	/* background-color: rgb(27, 21, 66); */
+	background-color: #120e2bff;
 }
 
 .project-image {
@@ -45,6 +45,7 @@
 @media (min-width: 1000px) {
 	.project-card {
 		max-width: 440px;
-		padding: 2vh 1vw 1vh 1vw;
+		padding: 3vh 3vw;
+		margin: 0 1vw 4vh 1vw;
 	}
 }
