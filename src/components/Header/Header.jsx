@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 
 import './Header.css';
+import scrollWithOffset from '../../helpers/scrollWithOffset';
 
 function Header() {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -21,15 +22,8 @@ function Header() {
 
 	const mobile = useMediaQuery({ query: '(max-width: 575px' });
 
-	const scrollWithOffset = (el) =>
-		window.scrollTo({
-			// nonfunctional if using scrollY instead of pageYOffset
-			top: el.getBoundingClientRect().top + window.pageYOffset - 170,
-			behavior: 'smooth',
-		});
-
 	return (
-		<header>
+		<header id="header">
 			<HashLink id="logo" to="#top" smooth>
 				Kayle
 			</HashLink>
@@ -59,7 +53,7 @@ function Header() {
 
 				<nav className={menuOpen ? 'open' : ''}>
 					<HashLink
-						to="#about-section"
+						to="#about"
 						smooth
 						scroll={(element) => scrollWithOffset(element)}
 						onClick={() => setMenuOpen(false)}
@@ -67,7 +61,7 @@ function Header() {
 						About
 					</HashLink>
 					<HashLink
-						to="#projects-section"
+						to="#projects"
 						smooth
 						scroll={(element) => scrollWithOffset(element)}
 						onClick={() => setMenuOpen(false)}
@@ -75,7 +69,7 @@ function Header() {
 						Projects
 					</HashLink>
 					<HashLink
-						to="#contact-section"
+						to="#contact"
 						smooth
 						scroll={(element) => scrollWithOffset(element)}
 						onClick={() => setMenuOpen(false)}
