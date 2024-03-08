@@ -9,6 +9,24 @@
 	justify-content: space-evenly;
 }
 
+.button {
+	padding: 1rem;
+	border-radius: 5px;
+	background-color: rgba(197, 184, 255, 0.25); /* transparent periwinkle */
+	border: solid 2px var(--periwinkle);
+	color: var(--periwinkle);
+	margin: 2rem auto 3rem auto;
+	display: block;
+}
+
+.button:hover,
+.button:focus {
+	border: solid 2px var(--jonquil);
+	cursor: pointer;
+	color: var(--jonquil);
+	background-color: rgb(240, 200, 8, 0.25); /* transparent jonquil */
+}
+
 @media (min-width: 1000px) {
 	#projects-container {
 		flex-wrap: wrap;

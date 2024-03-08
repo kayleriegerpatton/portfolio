@@ -56,7 +56,11 @@ function ProjectsSection() {
 							/>
 						))}
 				</div>
-				<button type="button" onClick={() => expandProjects()}>
+				<button
+					type="button"
+					className="button"
+					onClick={() => expandProjects()}
+				>
 					{projectsExpanded ? 'Show Less' : 'Show More'}
 				</button>
 			</section>
