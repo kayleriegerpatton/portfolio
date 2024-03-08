@@ -1,4 +1,6 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+
 import Header from './components/Header/Header';
 import './App.css';
 import Hero from './components/Hero/Hero';
@@ -9,16 +11,18 @@ import ContactSection from './components/ContactSection/ContactSection';
 
 function App() {
 	return (
-		<div className="app">
-			<Header />
-			<main>
-				<Hero />
-				<AboutSection />
-				<ProjectsSection />
-				<ContactSection />
-			</main>
-			<Footer />
-		</div>
+		<BrowserRouter>
+			<div className="app">
+				<Header />
+				<main>
+					<Hero />
+					<AboutSection />
+					<ProjectsSection />
+					<ContactSection />
+				</main>
+				<Footer />
+			</div>
+		</BrowserRouter>
 	);
 }
 export default App;

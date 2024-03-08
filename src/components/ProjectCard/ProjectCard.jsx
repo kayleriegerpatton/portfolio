@@ -52,7 +52,7 @@ function ProjectCard({
 	);
 }
 ProjectCard.propTypes = {
-	image: PropTypes.string.isRequired,
+	image: PropTypes.objectOf(PropTypes.string).isRequired,
 	altText: PropTypes.string.isRequired,
 	title: PropTypes.string.isRequired,
 	desc: PropTypes.string.isRequired,
