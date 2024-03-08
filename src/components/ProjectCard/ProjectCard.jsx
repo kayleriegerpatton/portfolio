@@ -38,7 +38,7 @@ function ProjectCard({
 				{live.length > 0 && (
 					<Link
 						aria-label={`${title} live link`}
-						href={live}
+						to={live}
 						target="_blank"
 						rel="noreferrer"
 						className="project-icon live-project-icon"
