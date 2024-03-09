@@ -5,6 +5,7 @@ header {
 	padding: 1.5vw 3vw 0 3vw;
 	height: 16vh;
 	width: 100%;
+	position: -webkit-sticky; /* Safari */
 	position: sticky;
 	top: 0;
 	font-size: 1.2rem;

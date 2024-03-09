@@ -27,7 +27,7 @@ function Header() {
 			<HashLink id="logo" to="#top" smooth>
 				Kayle
 			</HashLink>
-			<div className="drawer" ref={ref}>
+			<div ref={ref}>
 				{mobile && (
 					<button
 						type="button"
