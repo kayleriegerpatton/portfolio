@@ -17,6 +17,10 @@ function ProjectsSection() {
 		}
 	};
 
+	const unarchivedProjects = projects.filter(
+		(project) => project.archived === false
+	);
+
 	return (
 		<div id="projects">
 			<hr />
@@ -25,7 +29,7 @@ function ProjectsSection() {
 				<div id="projects-container">
 					{/* Featured Projects */}
 					{!projectsExpanded &&
-						projects
+						unarchivedProjects
 							.slice(0, 3)
 							.map((project) => (
 								<ProjectCard
@@ -42,7 +46,7 @@ function ProjectsSection() {
 							))}
 					{/* Other Projects */}
 					{projectsExpanded &&
-						projects.map((project) => (
+						unarchivedProjects.map((project) => (
 							<ProjectCard
 								key={project.id}
 								image={project.imageSrc}

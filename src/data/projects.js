@@ -27,6 +27,7 @@ const projects = [
 		githubUrl: '',
 		deployedUrl: '',
 		year: 2024,
+		archived: false,
 	},
 
 	{
@@ -39,6 +40,7 @@ const projects = [
 		githubUrl: '',
 		deployedUrl: '',
 		year: 2023,
+		archived: false,
 	},
 	{
 		id: 13,
@@ -58,6 +60,7 @@ const projects = [
 		githubUrl: 'https://github.com/kayleriegerpatton/stockscape',
 		deployedUrl: '',
 		year: 2022,
+		archived: false,
 	},
 	{
 		id: 12,
@@ -77,6 +80,7 @@ const projects = [
 		githubUrl: 'https://github.com/kayleriegerpatton/unified-client',
 		deployedUrl: '',
 		year: 2022,
+		archived: false,
 	},
 	{
 		id: 11,
@@ -89,6 +93,7 @@ const projects = [
 		githubUrl: 'https://github.com/kayleriegerpatton/sound-art-smart',
 		deployedUrl: 'https://kayleriegerpatton.github.io/sound-art-smart/',
 		year: 2021,
+		archived: false,
 	},
 	{
 		id: 10,
@@ -106,6 +111,7 @@ const projects = [
 		githubUrl: 'https://github.com/kayleriegerpatton/tech-blog-cms',
 		deployedUrl: '',
 		year: 2022,
+		archived: false,
 	},
 	{
 		id: 9,
@@ -125,6 +131,7 @@ const projects = [
 		githubUrl: 'https://github.com/kayleriegerpatton/ecommerce-back-end',
 		deployedUrl: '',
 		year: 2022,
+		archived: false,
 	},
 	{
 		id: 8,
@@ -138,6 +145,7 @@ const projects = [
 		githubUrl: 'https://github.com/kayleriegerpatton/weather-dashboard',
 		deployedUrl: 'https://kayleriegerpatton.github.io/weather-dashboard/',
 		year: 2021,
+		archived: false,
 	},
 	{
 		id: 7,
@@ -151,6 +159,7 @@ const projects = [
 		githubUrl: 'https://github.com/kayleriegerpatton/note-taker/',
 		deployedUrl: '',
 		year: 2022,
+		archived: true,
 	},
 	{
 		id: 6,
@@ -163,6 +172,7 @@ const projects = [
 		githubUrl: 'https://github.com/kayleriegerpatton/employee-tracker',
 		deployedUrl: '',
 		year: 2021,
+		archived: true,
 	},
 	{
 		id: 5,
@@ -178,6 +188,7 @@ const projects = [
 		deployedUrl:
 			'https://kayleriegerpatton.github.io/employee-random-password-generator/',
 		year: 2021,
+		archived: true,
 	},
 	{
 		id: 4,
@@ -190,6 +201,7 @@ const projects = [
 		githubUrl: 'https://github.com/kayleriegerpatton/work-day-planner',
 		deployedUrl: 'https://kayleriegerpatton.github.io/work-day-planner/',
 		year: 2021,
+		archived: true,
 	},
 	{
 		id: 3,
@@ -203,6 +215,7 @@ const projects = [
 		githubUrl: 'https://github.com/kayleriegerpatton/readme-generator',
 		deployedUrl: '',
 		year: 2021,
+		archived: true,
 	},
 	{
 		id: 2,
@@ -215,6 +228,7 @@ const projects = [
 		githubUrl: 'https://github.com/kayleriegerpatton/javascript-code-quiz',
 		deployedUrl: 'https://kayleriegerpatton.github.io/javascript-code-quiz/',
 		year: 2021,
+		archived: true,
 	},
 	{
 		id: 1,
@@ -228,6 +242,7 @@ const projects = [
 		githubUrl: 'https://github.com/kayleriegerpatton/team-profile-generator',
 		deployedUrl: '',
 		year: 2021,
+		archived: true,
 	},
 ];
 
