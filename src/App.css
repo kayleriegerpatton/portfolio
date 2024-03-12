@@ -1,17 +1,15 @@
 :root {
-	--dark-purple: #120e2bff;
-	--tropical-indigo: #9683ecff;
-	--periwinkle: #c5b8ffff;
-	--black-olive: #36392eff;
+	--dark-purple: rgb(18, 14, 43);
+	--tropical-indigo: rgb(150, 131, 236);
+	--periwinkle: rgb(197, 184, 255);
 	--jonquil: rgb(240, 200, 8);
 	font-family: sans-serif;
 	font-size: 16px;
 	color: var(--tropical-indigo);
-	background-color: #1b1542;
+	background-color: rgb(27, 21, 66);
 }
 
 * {
-	/* border: 1px solid red; A CLASSIC ;) */
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -23,7 +21,7 @@
 }
 
 main {
-	padding: 0 3vw;
+	padding: 0 6vw;
 }
 
 hr {
@@ -45,8 +43,8 @@ hr {
 	position: absolute;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 768px) {
 	main {
-		padding: 0 6vw;
+		padding: 0 3vw;
 	}
 }
