@@ -21,12 +21,16 @@
 	margin-bottom: 0.75rem;
 	line-height: 1.2;
 	font-size: 1.1rem;
+	color: var(--periwinkle);
+	font-weight: 200;
 }
 
 .project-tech {
 	margin-bottom: 0.75rem;
 	line-height: 1.5;
 	font-size: 1.1rem;
+	color: var(--jonquil);
+	font-weight: 200;
 }
 
 .project-links {
