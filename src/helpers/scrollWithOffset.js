@@ -1,9 +1,10 @@
 const scrollWithOffset = (el) => {
-	const headerOffset = document.getElementById('header').offsetHeight;
+	const headerHeightOffset = document.getElementById('header').offsetHeight;
 
 	const elementPosition = el.getBoundingClientRect().top;
 
-	const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+	const offsetPosition =
+		elementPosition + window.pageYOffset - headerHeightOffset;
 
 	window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
 };
