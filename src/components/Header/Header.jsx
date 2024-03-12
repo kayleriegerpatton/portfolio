@@ -7,7 +7,6 @@ import {
 	faX,
 } from '@fortawesome/free-solid-svg-icons';
 import { HashLink } from 'react-router-hash-link';
-import { Link } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 
 import './Header.css';
@@ -76,8 +75,8 @@ function Header() {
 					>
 						Contact
 					</HashLink>
-					<Link
-						to="https://docs.google.com/document/u/0/d/e/2PACX-1vQEW_fcC4ZmCJPRgPFb_m8kXRKV2qhg1GaxyuiLxWuvzompKxgBpRqwRpmHr6NfEAdbXCxUG0WjyYq5/pub?pli=1"
+					<a
+						href="https://docs.google.com/document/u/0/d/e/2PACX-1vQEW_fcC4ZmCJPRgPFb_m8kXRKV2qhg1GaxyuiLxWuvzompKxgBpRqwRpmHr6NfEAdbXCxUG0WjyYq5/pub?pli=1"
 						target="_blank"
 						rel="noreferrer"
 					>
@@ -87,7 +86,7 @@ function Header() {
 							className="nav-icon"
 							size="sm"
 						/>
-					</Link>
+					</a>
 				</nav>
 			</div>
 		</header>

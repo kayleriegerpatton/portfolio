@@ -1,30 +1,37 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { Routes, Route, Outlet } from 'react-router-dom';
+import { useMediaQuery } from 'react-responsive';
 
 import Header from './components/Header/Header';
 import './App.css';
-import Hero from './components/Hero/Hero';
 import Footer from './components/Footer/Footer';
-import AboutSection from './components/AboutSection/AboutSection';
-import ProjectsSection from './components/ProjectsSection/ProjectsSection';
-import ContactSection from './components/ContactSection/ContactSection';
 import SkipLink from './components/SkipLink/SkipLink';
+import Home from './pages/Home';
 
 function App() {
+	const mobile = useMediaQuery({ query: '(max-width: 575px' });
 	return (
-		<BrowserRouter>
-			<SkipLink />
-			<div className="app">
-				<Header />
-				<main>
-					<Hero />
-					<AboutSection />
-					<ProjectsSection />
-					<ContactSection />
-				</main>
-				<Footer />
-			</div>
-		</BrowserRouter>
+		<div className="app">
+			{!mobile && <SkipLink />}
+			<Header />
+			<Routes>
+				<Route path="/" element={<Layout />}>
+					<Route index element={<Home />} />
+				</Route>
+			</Routes>
+		</div>
 	);
 }
+
+function Layout() {
+	return (
+		<>
+			{/* <Header /> */}
+			{/* <Outlet> renders active child routes, so you can think of it as a placeholder for the child routes  defined above. */}
+			<Outlet />
+			<Footer />
+		</>
+	);
+}
+
 export default App;
