@@ -1,7 +1,6 @@
 #about-section {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	flex-direction: column;
 }
 
 #about-heading {
@@ -11,15 +10,26 @@
 
 #about-text {
 	font-size: 1.5rem;
-	max-width: 50%;
+	max-width: 100%;
 	margin-bottom: 2rem;
 }
-/* TODO: refactor to be mobile-first */
-@media (max-width: 767px) {
+
+#about-text p:not(:last-child) {
+	margin-bottom: 2rem;
+}
+
+#about-text p:first-of-type {
+	font-size: 2rem;
+	color: var(--periwinkle);
+}
+
+@media (min-width: 768px) {
 	#about-section {
-		flex-direction: column;
+		flex-direction: row;
+		justify-content: space-between;
 	}
 	#about-text {
-		max-width: 100%;
+		max-width: 50%;
+		align-self: center;
 	}
 }

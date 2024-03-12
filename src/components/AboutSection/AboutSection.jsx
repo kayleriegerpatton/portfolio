@@ -7,20 +7,27 @@ function AboutSection() {
 			<hr />
 			<section id="about-section">
 				<h2 id="about-heading">ABOUT</h2>
-				<p id="about-text">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu
-					dapibus mi, quis aliquet elit. Mauris vel interdum turpis. Vivamus sed
-					enim eget felis iaculis molestie vitae sit amet enim. Donec et
-					malesuada nulla. Pellentesque id ex at lorem venenatis tincidunt quis
-					eget purus. Morbi interdum ipsum id nulla tempus, lobortis ultricies
-					eros maximus. Phasellus molestie ipsum id nisi vulputate, a
-					sollicitudin nisl aliquam. Ut orci lacus, consequat non eros vitae,
-					egestas dignissim neque. Vivamus semper ante sit amet nisi fermentum
-					euismod sed sit amet augue. Nam laoreet ligula vel tristique lacinia.
-					Curabitur euismod ligula non tempus pretium. In vehicula mauris
-					facilisis quam interdum, eu facilisis magna facilisis. Integer maximus
-					vulputate mi, quis malesuada ligula sodales pretium.
-				</p>
+				<div id="about-text">
+					<p>
+						I&apos;m a software developer and former arts accessibility
+						specialist.
+					</p>
+					<p>
+						I retrained into tech through an intensive boot-camp where I quickly
+						grasped new technologies and concepts such as JavaScript, React,
+						Node.js, GraphQL, database structures, and more.
+					</p>
+					<p>
+						As a former artist and disability advocate, I bring unique
+						perspectives and dedication to creating exceptional user
+						experiences. I&apos;m eager to contribute my skills to meaningful
+						projects, driven by a desire to make a positive impact everywhere I
+						go.
+					</p>
+					<p>
+						I bring an eye for design and a heart for people to everything I do.
+					</p>
+				</div>
 			</section>
 		</div>
 	);
