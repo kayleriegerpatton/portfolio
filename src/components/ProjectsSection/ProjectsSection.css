@@ -1,3 +1,7 @@
+#projects {
+	scroll-margin-top: 16vh;
+}
+
 #projects-heading {
 	font-size: 1rem;
 	margin-bottom: 2rem;

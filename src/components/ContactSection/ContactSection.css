@@ -1,3 +1,7 @@
+#contact {
+	scroll-margin-top: 16vh;
+}
+
 #contact-section {
 	display: flex;
 	flex-direction: column;

@@ -6,11 +6,9 @@ import {
 	faBars,
 	faX,
 } from '@fortawesome/free-solid-svg-icons';
-import { HashLink } from 'react-router-hash-link';
 import { useMediaQuery } from 'react-responsive';
 
 import './Header.css';
-import scrollWithOffset from '../../helpers/scrollWithOffset';
 
 function Header() {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -23,9 +21,9 @@ function Header() {
 
 	return (
 		<header id="header">
-			<HashLink id="logo" to="#top" smooth>
+			<a id="logo" href="#top">
 				Kayle
-			</HashLink>
+			</a>
 			<div ref={ref}>
 				{mobile && (
 					<button
@@ -51,30 +49,15 @@ function Header() {
 				)}
 
 				<nav className={menuOpen ? 'open' : ''}>
-					<HashLink
-						to="#about"
-						smooth
-						scroll={(element) => scrollWithOffset(element)}
-						onClick={() => setMenuOpen(false)}
-					>
+					<a href="#about" onClick={() => setMenuOpen(false)}>
 						About
-					</HashLink>
-					<HashLink
-						to="#projects"
-						smooth
-						scroll={(element) => scrollWithOffset(element)}
-						onClick={() => setMenuOpen(false)}
-					>
+					</a>
+					<a href="#projects" onClick={() => setMenuOpen(false)}>
 						Projects
-					</HashLink>
-					<HashLink
-						to="#contact"
-						smooth
-						scroll={(element) => scrollWithOffset(element)}
-						onClick={() => setMenuOpen(false)}
-					>
+					</a>
+					<a href="#contact" onClick={() => setMenuOpen(false)}>
 						Contact
-					</HashLink>
+					</a>
 					<a
 						href="https://docs.google.com/document/u/0/d/e/2PACX-1vQEW_fcC4ZmCJPRgPFb_m8kXRKV2qhg1GaxyuiLxWuvzompKxgBpRqwRpmHr6NfEAdbXCxUG0WjyYq5/pub?pli=1"
 						target="_blank"
