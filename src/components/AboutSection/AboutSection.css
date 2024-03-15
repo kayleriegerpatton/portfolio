@@ -1,3 +1,7 @@
+#about {
+	scroll-margin-top: 16vh;
+}
+
 #about-section {
 	display: flex;
 	flex-direction: column;
