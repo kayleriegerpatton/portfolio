@@ -130,4 +130,6 @@ describe('ProjectsSection', () => {
 
 		expect(screen.queryAllByRole('img')).toHaveLength(6);
 	});
+
+	// TODO: test for receiving bad data object
 });
