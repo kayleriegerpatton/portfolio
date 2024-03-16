@@ -1,19 +1,15 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 import './ProjectsSection.css';
 import ProjectCard from '../ProjectCard/ProjectCard';
-import projects from '../../data/projects';
 
-function ProjectsSection() {
+function ProjectsSection({ projects }) {
 	const [projectsExpanded, setProjectsExpanded] = useState(false);
 
 	const expandProjects = () => {
 		setProjectsExpanded(!projectsExpanded);
 	};
-
-	const unarchivedProjects = projects.filter(
-		(project) => project.archived === false
-	);
 
 	return (
 		<div id="projects">
@@ -23,7 +19,7 @@ function ProjectsSection() {
 				<div id="projects-container">
 					{/* Featured Projects */}
 					{!projectsExpanded &&
-						unarchivedProjects
+						projects
 							.slice(0, 3)
 							.map((project) => (
 								<ProjectCard
@@ -40,7 +36,7 @@ function ProjectsSection() {
 							))}
 					{/* Other Projects */}
 					{projectsExpanded &&
-						unarchivedProjects.map((project) => (
+						projects.map((project) => (
 							<ProjectCard
 								key={project.id}
 								image={project.imageSrc}
@@ -65,4 +61,9 @@ function ProjectsSection() {
 		</div>
 	);
 }
+
+ProjectsSection.propTypes = {
+	projects: PropTypes.arrayOf(PropTypes.shape()).isRequired,
+};
+
 export default ProjectsSection;

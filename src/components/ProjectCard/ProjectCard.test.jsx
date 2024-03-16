@@ -1,14 +1,14 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { MemoryRouter } from 'react-router-dom';
 
 import ProjectCard from './ProjectCard';
 
 describe('ProjectCard', () => {
 	const renderProjectCard = () => {
 		render(
-			<BrowserRouter>
+			<MemoryRouter>
 				<ProjectCard
 					image="default.png"
 					altText="test alt text"
@@ -19,7 +19,7 @@ describe('ProjectCard', () => {
 					live=""
 					year={2024}
 				/>
-			</BrowserRouter>
+			</MemoryRouter>
 		);
 	};
 
