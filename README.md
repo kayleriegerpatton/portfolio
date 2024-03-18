@@ -1,36 +1,46 @@
-## Table of Contents
-
-- [Description](#description)
-  - [Technologies](#technologies)
-  - [Deployed Application](#deployed-application)
-- [License](#license)
-- [Screenshots](#screenshots)
+# Kayle's Portfolio
 
 ## Description
 
-This single page, mobile-first application displays many of the coding projects I've completed during my boot-camp journey, along with an About section, contact form, and a link to my resume.
+This single page application highlights some of my work and projects, starting from boot-camp in 2021, as well a bit about me, my contact information, and a link to my live CV.
 
-The app utilizes React routing, conditional rendering, and Material UI components with custom CSS.
+The app leverages React, custom CSS, and FontAwesome icons to deliver a streamlined and responsive interface. In addition to manually setting up the project's configuration for linting, bundling, and transpiling, I also enjoyed deepening my knowledge of React Testing Library and accessibility foundations, plus the challenge of implementing a few features with vanilla JS rather than external libraries.
 
 ### Technologies
 
-- CSS
-- JavaScript
-- Material UI
-- React.js
+![Javascript](https://img.shields.io/badge/-JavaScript-EDD222?logo=javascript&logoColor=black)
+![ReactJS](https://img.shields.io/badge/-ReactJS-61DAFB?logo=react&logoColor=black)
+![CSS](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)
+![Jest](https://img.shields.io/badge/-Jest-C21325?logo=jest&logoColor=white)
+![React Testing Library](https://img.shields.io/badge/-React%20Testing%20Library-E33332?logo=testinglibrary&logoColor=white)
+![ESLint](https://img.shields.io/badge/-ESLint-4B32C3?logo=eslint&logoColor=white)
+![Font Awesome](https://img.shields.io/badge/-Font%20Awesome-528DD7?logo=fontawesome&logoColor=white)
+![Babel](https://img.shields.io/badge/-Babel-F9DC3E?logo=babel&logoColor=black)
+![Webpack](https://img.shields.io/badge/-Webpack-4B32C3?logo=webpack&logoColor=white)
 
-### Deployed Application
+## Screenshots
 
-[View the deployed application](https://kayleriegerpatton.github.io/portfolio-v1/#/about)
+<!--
+| First Header                                          | Second Header                                         |
+| ----------------------------------------------------- | ----------------------------------------------------- |
+| ![mobile screenshot](public/assets/images/mobile.png) | ![tablet screenshot](public/assets/images/tablet.png) | -->
+
+<table>
+  <tr>
+    <td> <img src="public/assets/images/mobile.png"  alt="1" width = 180px height = 360px ></td>
+<td><img src="public/assets/images/tablet.png" alt="3" width = 450px height = 320px></td>
+   </tr> 
+</table>
+
+## Future Work
+
+Here are some additional features I'd love to find time to explore and add:
+
+- An image comparison slider for before-and-afters
+- Routing some additional pages which go into further detail about certain projects
+- Integrating some accessibility testing tools, such as axe DevTools
+- Adding a 'Specialties' section to highlight my top skills and software engineering interests
 
 ## License
 
 MIT License
-
-## Screenshots
-
-![About Page](screenshots/aboutPage.png)
-
-![Work Page](screenshots/workPage.png)
-
-![Contact Page](screenshots/contactPage.png)
