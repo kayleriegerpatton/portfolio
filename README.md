@@ -4,6 +4,8 @@
 
 This single page application highlights some of my work and projects, starting from boot-camp in 2021, as well a bit about me, my contact information, and a link to my live CV.
 
+<!-- [Check it out here.]() -->
+
 The app leverages React, custom CSS, and FontAwesome icons to deliver a streamlined and responsive interface. In addition to manually setting up the project's configuration for linting, bundling, and transpiling, I also enjoyed deepening my knowledge of React Testing Library and accessibility foundations, plus the challenge of implementing a few features with vanilla JS rather than external libraries.
 
 ### Technologies
@@ -41,6 +43,7 @@ Here are some additional features I'd love to find time to explore and add:
 - Routing some additional pages which go into further detail about certain projects
 - Integrating some accessibility testing tools, such as axe DevTools
 - Adding a 'Specialties' section to highlight my top skills and software engineering interests
+- Adding a 'Social Proof'/'Testimonials' type section to quote some lovely things people have said about my work
 
 ## License
 
