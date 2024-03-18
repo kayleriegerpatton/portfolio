@@ -7,7 +7,7 @@ function ContactSection() {
 		<div id="contact">
 			<hr />
 			<section id="contact-section">
-				<h2 id="contact-heading">CONTACT</h2>
+				<h2 id="contact-heading">Contact</h2>
 				<div id="contact-text">
 					<a href="mailto:kayle.patton22@gmail.com">kayle.patton22@gmail.com</a>
 					<br />
