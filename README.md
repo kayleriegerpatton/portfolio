@@ -27,8 +27,8 @@ The app leverages React, custom CSS, and FontAwesome icons to deliver a streamli
 
 <table>
   <tr>
-    <td> <img src="public/assets/images/mobile.png"  alt="1" width = 180px height = 360px ></td>
-<td><img src="public/assets/images/tablet.png" alt="3" width = 450px height = 320px></td>
+    <td> <img src="public/assets/images/mobile.png"  alt="1" width = 270px height = 540px ></td>
+<td><img src="public/assets/images/tablet.png" alt="3" width = 675px height = 480px></td>
    </tr> 
 </table>
 
