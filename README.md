@@ -37,6 +37,7 @@ The app leverages React, custom CSS, and FontAwesome icons to deliver a streamli
 Here are some additional features I'd love to find time to explore and add:
 
 - An image comparison slider for before-and-afters
+- Trying out SCSS
 - Routing some additional pages which go into further detail about certain projects
 - Integrating some accessibility testing tools, such as axe DevTools
 - Adding a 'Specialties' section to highlight my top skills and software engineering interests
