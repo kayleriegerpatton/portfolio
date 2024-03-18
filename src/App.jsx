@@ -19,6 +19,7 @@ function App() {
 					<Route index element={<Home />} />
 				</Route>
 			</Routes>
+			<Footer />
 		</div>
 	);
 }
@@ -26,10 +27,8 @@ function App() {
 function Layout() {
 	return (
 		<>
-			{/* <Header /> */}
-			{/* <Outlet> renders active child routes, so you can think of it as a placeholder for the child routes  defined above. */}
+			{/* <Outlet> renders active child routes, so think of it as a placeholder for the child routes defined above. */}
 			<Outlet />
-			<Footer />
 		</>
 	);
 }

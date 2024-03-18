@@ -7,7 +7,7 @@ import App from './App';
 const container = document.getElementById('root');
 const root = createRoot(container);
 root.render(
-	<BrowserRouter basename="/" future={{ v7_startTransition: true }}>
+	<BrowserRouter future={{ v7_startTransition: true }}>
 		<App />
 	</BrowserRouter>
 );
