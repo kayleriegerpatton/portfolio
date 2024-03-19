@@ -1,6 +1,6 @@
 {
-	"name": "portfolio",
 	"homepage": "https://kayleriegerpatton.github.io/portfolio",
+	"name": "portfolio",
 	"version": "1.0.0",
 	"description": "Test",
 	"main": "index.jsx",
@@ -13,7 +13,7 @@
 		"lint": "eslint . --fix --max-warnings=0",
 		"format": "prettier . --write",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
+		"deploy": "gh-pages -d dist"
 	},
 	"keywords": [],
 	"author": "",
