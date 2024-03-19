@@ -45,7 +45,8 @@ jobs:
       - name: Build project
         run: npm run build
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        #   may need to update this action in the future https://github.blog/changelog/2023-09-22-github-actions-transitioning-from-node-16-to-node-20/
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./dist
   # Deployment job
