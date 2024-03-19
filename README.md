@@ -1,12 +1,13 @@
-# Kayle's Portfolio
+# [Kayle's Portfolio](https://kayleriegerpatton.github.io/portfolio/)
 
 ## Description
 
 This single page application highlights some of my work and projects, starting from boot-camp in 2021, as well a bit about me, my contact information, and a link to my live CV.
 
-<!-- [Check it out here.]() -->
-
 The app leverages React, custom CSS, and FontAwesome icons to deliver a streamlined and responsive interface. In addition to manually setting up the project's configuration for linting, bundling, and transpiling, I also enjoyed deepening my knowledge of React Testing Library and accessibility foundations, plus the challenge of implementing a few features with vanilla JS rather than external libraries.
+
+My portfolio is currently deployed with GitHub Pages.
+Check it out here: [https://kayleriegerpatton.github.io/portfolio/](https://kayleriegerpatton.github.io/portfolio/)
 
 ### Technologies
 
@@ -22,17 +23,9 @@ The app leverages React, custom CSS, and FontAwesome icons to deliver a streamli
 
 ## Screenshots
 
-
 | Mobile                                                | Tablet                                                |
 | ----------------------------------------------------- | ----------------------------------------------------- |
 | ![mobile screenshot](public/assets/images/mobile.png) | ![tablet screenshot](public/assets/images/tablet.png) |
-
-<!-- <table>
-  <tr>
-    <td> <img src="public/assets/images/mobile.png"  alt="1" width = 270px height = 540px ></td>
-<td><img src="public/assets/images/tablet.png" alt="3" width = 675px height = 480px></td>
-   </tr> 
-</table> -->
 
 ## Future Work
 
