@@ -13,7 +13,7 @@ describe('App', () => {
 			</BrowserRouter>
 		);
 
-		screen.debug();
+		// screen.debug();
 		const heading = screen.getByRole('link', { name: 'Kayle' });
 		expect(heading).toBeInTheDocument();
 	});
