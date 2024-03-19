@@ -22,17 +22,17 @@ The app leverages React, custom CSS, and FontAwesome icons to deliver a streamli
 
 ## Screenshots
 
-<!--
-| First Header                                          | Second Header                                         |
-| ----------------------------------------------------- | ----------------------------------------------------- |
-| ![mobile screenshot](public/assets/images/mobile.png) | ![tablet screenshot](public/assets/images/tablet.png) | -->
 
-<table>
+| Mobile                                                | Tablet                                                |
+| ----------------------------------------------------- | ----------------------------------------------------- |
+| ![mobile screenshot](public/assets/images/mobile.png) | ![tablet screenshot](public/assets/images/tablet.png) |
+
+<!-- <table>
   <tr>
     <td> <img src="public/assets/images/mobile.png"  alt="1" width = 270px height = 540px ></td>
 <td><img src="public/assets/images/tablet.png" alt="3" width = 675px height = 480px></td>
    </tr> 
-</table>
+</table> -->
 
 ## Future Work
 
