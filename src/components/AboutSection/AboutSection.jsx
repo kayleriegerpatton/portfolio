@@ -13,16 +13,19 @@ function AboutSection() {
 						specialist.
 					</p>
 					<p>
-						I retrained into tech through an intensive boot-camp where I quickly
-						grasped new technologies and concepts such as JavaScript, React,
-						Node.js, GraphQL, database structures, and more.
+						I took the leap into tech by leveraging my creativity,
+						problem-solving, and adaptability. I&apos;ve since developed
+						cloud-based services in AWS using JavaScript plus frameworks and
+						tools such as React, Node.js, GraphQL, and Jest. I&apos;m also
+						skilled in advocating for inclusive web design practices to enhance
+						user experiences.
 					</p>
 					<p>
 						As a former artist and disability advocate, I bring unique
-						perspectives and dedication to creating exceptional user
-						experiences. I&apos;m eager to contribute my skills to meaningful
-						projects, driven by a desire to make a positive impact everywhere I
-						go.
+						perspectives and dedication to creating exceptional customer
+						experiences. I&apos;m eager to contribute to values-driven teams to
+						further expand my skills and drive meaningful impact through
+						cross-functional collaboration.
 					</p>
 					<p>
 						I bring an eye for design and a heart for people to everything I do.
