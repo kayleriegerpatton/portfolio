@@ -69,7 +69,8 @@
 		"testEnvironment": "jsdom",
 		"moduleNameMapper": {
 			"\\.(css)$": "<rootDir>/__mocks__/mock.js",
-			"\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/mock.js"
+			"\\.(jpg|jpeg|png|svg|gif)$": "<rootDir>/__mocks__/image.png",
+			"\\.(eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/mock.js"
 		}
 	}
 }
