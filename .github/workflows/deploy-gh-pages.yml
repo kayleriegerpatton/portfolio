@@ -29,11 +29,11 @@ jobs:
           node-version: '18'
           cache: npm
       - name: Install dependencies
-        run: npm i
+        run: echo "Installing" && npm i
       - name: Build project
-        run: npm run build
+        run: echo "Running build" && npm run build
       - name: Run tests
-        run: npm run test
+        run: echo "Running tests" && npm run test
       - name: Upload artifact
         #   may need to update this action in the future https://github.blog/changelog/2023-09-22-github-actions-transitioning-from-node-16-to-node-20/
         uses: actions/upload-pages-artifact@v2
