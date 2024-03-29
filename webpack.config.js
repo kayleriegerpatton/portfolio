@@ -33,7 +33,7 @@ module.exports = {
 				use: ['style-loader', 'css-loader'],
 			},
 			{
-				test: /\.(png|gif|jpg)$/,
+				test: /\.(png|gif|jpg|svg|ico|jpeg)$/,
 				type: 'asset/resource',
 			},
 		],
@@ -41,6 +41,7 @@ module.exports = {
 	plugins: [
 		new HtmlWebpackPlugin({
 			template: path.join(__dirname, 'public', 'index.html'),
+			favicon: './public/favicon.ico',
 		}),
 	],
 };
