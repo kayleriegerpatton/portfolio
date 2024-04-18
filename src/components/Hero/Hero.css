@@ -12,6 +12,7 @@
 #hero-text-1 {
 	margin-top: 7vh;
 	text-indent: 5vw;
+	font-size: 1.3rem;
 }
 
 #hero-emphasis-1 {
@@ -24,8 +25,16 @@
 }
 
 #hero-text-2 {
-	text-indent: 35vw;
+	text-align: right;
 	margin-bottom: 7vh;
+	font-size: 1.3rem;
+}
+
+@media (min-width: 480px) {
+	#hero-text-2 {
+		text-align: center;
+		text-indent: 35vw;
+	}
 }
 
 /* tablet */

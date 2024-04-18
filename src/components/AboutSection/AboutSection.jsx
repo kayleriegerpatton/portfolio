@@ -27,9 +27,9 @@ function AboutSection() {
 						further expand my skills and drive meaningful impact through
 						cross-functional collaboration.
 					</p>
-					<p>
+					{/* <p>
 						I bring an eye for design and a heart for people to everything I do.
-					</p>
+					</p> */}
 				</div>
 			</section>
 		</div>

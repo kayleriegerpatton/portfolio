@@ -15,7 +15,7 @@ function ProjectsSection({ projects }) {
 		<div id="projects">
 			<hr />
 			<section id="projects-section">
-				<h2 id="projects-heading">Projects</h2>
+				<h2 id="projects-heading">Featured Projects</h2>
 				<div id="projects-container">
 					{/* Featured Projects */}
 					{!projectsExpanded &&
