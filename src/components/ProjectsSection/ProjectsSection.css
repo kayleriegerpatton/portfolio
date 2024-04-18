@@ -3,7 +3,7 @@
 }
 
 #projects-heading {
-	font-size: 1rem;
+	font-size: 1.3rem;
 	margin-bottom: 2rem;
 	text-transform: uppercase;
 }
@@ -22,6 +22,7 @@
 	color: var(--periwinkle);
 	margin: 2rem auto 3rem auto;
 	display: block;
+	font-size: 1.2rem;
 }
 
 .button:hover,
