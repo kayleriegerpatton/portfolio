@@ -7,12 +7,6 @@
 	flex-direction: column;
 }
 
-#contact-heading {
-	font-size: 1.3rem;
-	margin-bottom: 2rem;
-	text-transform: uppercase;
-}
-
 #contact-text {
 	margin-bottom: 3rem;
 	line-height: 1.5;

@@ -2,12 +2,6 @@
 	scroll-margin-top: 16vh;
 }
 
-#projects-heading {
-	font-size: 1.3rem;
-	margin-bottom: 2rem;
-	text-transform: uppercase;
-}
-
 #projects-container {
 	display: flex;
 	flex-direction: column;

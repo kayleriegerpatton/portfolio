@@ -7,12 +7,6 @@
 	flex-direction: column;
 }
 
-#about-heading {
-	font-size: 1.3rem;
-	margin-bottom: 2rem;
-	text-transform: uppercase;
-}
-
 #about-text {
 	font-size: 1.5rem;
 	max-width: 100%;

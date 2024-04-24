@@ -32,6 +32,17 @@ hr {
 	margin: 16px auto;
 }
 
+.section-heading {
+	font-size: 1.3rem;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+}
+
+.section-subheading {
+	color: var(--periwinkle);
+	/* margin-bottom: 1rem; */
+}
+
 /* use to visually hide elements, but remain available to screen readers */
 .hidden {
 	clip: rect(1px, 1px, 1px, 1px);
