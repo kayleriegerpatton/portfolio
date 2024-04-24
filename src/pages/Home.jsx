@@ -5,6 +5,7 @@ import ContactSection from '../components/ContactSection/ContactSection';
 import Hero from '../components/Hero/Hero';
 import ProjectsSection from '../components/ProjectsSection/ProjectsSection';
 import projects from '../data/projects';
+import TestimonialsSection from '../components/TestimonialsSection/TestimonialsSection';
 
 function Home() {
 	const unarchivedProjects = projects.filter(
@@ -16,6 +17,7 @@ function Home() {
 			<Hero />
 			<AboutSection />
 			<ProjectsSection projects={unarchivedProjects} />
+			<TestimonialsSection />
 			<ContactSection />
 		</main>
 	);

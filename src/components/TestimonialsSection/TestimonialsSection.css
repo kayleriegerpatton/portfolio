@@ -1,0 +1,11 @@
+#testimonials-heading {
+	font-size: 1.3rem;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+}
+
+.testimonial-container {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+}
