@@ -30,7 +30,7 @@ function ProjectCard({
 						to={github}
 						target="_blank"
 						rel="noreferrer"
-						className="project-icon"
+						className="project-icon github-project-icon"
 					>
 						<FontAwesomeIcon icon={faSquareGithub} size="2xl" />
 					</Link>
@@ -41,7 +41,7 @@ function ProjectCard({
 						to={live}
 						target="_blank"
 						rel="noreferrer"
-						className="project-icon live-project-icon"
+						className="project-icon"
 					>
 						<FontAwesomeIcon icon={faUpRightFromSquare} size="xl" />
 					</Link>
