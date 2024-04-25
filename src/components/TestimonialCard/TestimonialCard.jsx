@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './TestimonialCard.css';
 
-function TestimonialCard({ fullName, text, role, company }) {
+function TestimonialCard({ fullName, text, roleName, company }) {
 	return (
 		<div className="testimonial-card">
 			<p className="testimonial-text">
@@ -12,7 +12,7 @@ function TestimonialCard({ fullName, text, role, company }) {
 			</p>
 			<p className="testimonial-name">{fullName}</p>
 			<p className="testimonial-role">
-				{role}, {company}
+				{roleName}, {company}
 			</p>
 		</div>
 	);
@@ -21,7 +21,7 @@ function TestimonialCard({ fullName, text, role, company }) {
 TestimonialCard.propTypes = {
 	fullName: PropTypes.string.isRequired,
 	text: PropTypes.string.isRequired,
-	role: PropTypes.string.isRequired,
+	roleName: PropTypes.string.isRequired,
 	company: PropTypes.string.isRequired,
 };
 

@@ -19,7 +19,7 @@ function TestimonialsSection() {
 							key={testimonial.id}
 							fullName={testimonial.fullName}
 							text={testimonial.text}
-							role={testimonial.role}
+							roleName={testimonial.role}
 							company={testimonial.company}
 						/>
 					))}

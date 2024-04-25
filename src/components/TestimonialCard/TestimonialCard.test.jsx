@@ -12,7 +12,7 @@ describe('TestimonialCard', () => {
 				<TestimonialCard
 					fullName="jane doe"
 					text="test"
-					role="software engineer"
+					roleName="software engineer"
 					company="cool company"
 				/>
 			</MemoryRouter>
