@@ -32,7 +32,7 @@ jobs:
       - name: Run tests
         run: echo "Running tests" && npm run test
       - name: Upload artifact
-        #   may need to update this action in the future https://github.blog/changelog/2023-09-22-github-actions-transitioning-from-node-16-to-node-20/
+        #!   may need to update this action in the future https://github.blog/changelog/2023-09-22-github-actions-transitioning-from-node-16-to-node-20/, https://github.com/actions/upload-artifact/blob/main/docs/MIGRATION.md
         uses: actions/upload-pages-artifact@v2
         with:
           # upload dist directory's content
