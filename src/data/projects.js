@@ -13,8 +13,22 @@ import unified from '../images/project-visuals/unified.png';
 import stockscape from '../images/project-visuals/stockscape.gif';
 import metrikComparison from '../images/project-visuals/metrikRedesign.png';
 import cosmosCLI from '../images/project-visuals/cosmosCLI2.png';
+import cys631Solution from '../images/project-visuals/cys-631Solution.png';
 
 const projects = [
+	{
+		id: 16,
+		title: 'Custom WordPress Styling',
+		technologies: ['CSS', 'HTML', 'Divi Builder', 'WordPress'],
+		description:
+			'Collaborated with UX/UI Designer on client project to enhance WordPress website aesthetics and functionality with custom CSS using the Divi Theme & Builder tool.',
+		imageSrc: cys631Solution,
+		altText: `The 631 Solution website's "Get Started" page and form.`,
+		githubUrl: '',
+		deployedUrl: 'https://631solution.org/',
+		year: 2024,
+		archived: false,
+	},
 	{
 		id: 15,
 		title: 'Deployment Platform CLI Rewrite',
@@ -29,7 +43,6 @@ const projects = [
 		year: 2024,
 		archived: false,
 	},
-
 	{
 		id: 14,
 		title: 'Accessibility Audit & Refactor',

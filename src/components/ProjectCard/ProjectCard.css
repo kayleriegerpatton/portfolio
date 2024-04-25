@@ -42,8 +42,8 @@
 	color: var(--tropical-indigo);
 }
 
-.live-project-icon {
-	margin-left: 1rem;
+.github-project-icon {
+	margin-right: 1rem;
 }
 
 @media (min-width: 1000px) {
