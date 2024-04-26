@@ -2,7 +2,7 @@
 	padding: 5vh 5vw;
 	margin-bottom: 4vh;
 	border-radius: 5px;
-	background-color: #120e2bff;
+	background-color: #120e2b;
 }
 
 .project-image {
@@ -29,7 +29,7 @@
 	margin-bottom: 0.75rem;
 	line-height: 1.5;
 	font-size: 1.1rem;
-	color: var(--jonquil);
+	color: var(--accent);
 	font-weight: 200;
 }
 

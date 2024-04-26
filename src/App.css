@@ -1,12 +1,13 @@
 :root {
-	--dark-purple: rgb(18, 14, 43);
-	--tropical-indigo: rgb(150, 131, 236);
-	--periwinkle: rgb(197, 184, 255);
-	--jonquil: rgb(240, 200, 8);
+	--primary: #1b1542;
+	--dark-purple: #120e2b;
+	--tropical-indigo: #9683ec;
+	--periwinkle: #c5b8ff;
+	--accent: #f0c808;
 	font-family: sans-serif;
 	font-size: 16px;
 	color: var(--tropical-indigo);
-	background-color: rgb(27, 21, 66);
+	background-color: var(--primary);
 }
 
 * {
