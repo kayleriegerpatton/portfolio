@@ -35,8 +35,8 @@ Here are some additional features I'd love to find time to explore and add:
 - Trying out SCSS
 - Routing some additional pages which go into further detail about certain projects
 - Integrating some accessibility testing tools, such as axe DevTools
-- Adding a 'Specialties' section to highlight my top skills and software engineering interests
-✅ Adding a 'Social Proof'/'Testimonials' type section to quote some lovely things people have said about my work
+- Adding a 'Specialties' section to highlight my top skills and software engineering interests  
+- ✅ Adding a 'Social Proof'/'Testimonials' type section to quote some lovely things people have said about my work
 
 ## License
 
