@@ -2,7 +2,7 @@
 
 ## Description
 
-This single page application highlights some of my work and projects, starting from boot-camp in 2021, as well a bit about me, my contact information, and a link to my live CV.
+This single page application highlights some of my work and projects, a bit about me, my contact information, and a link to my live CV.
 
 The app leverages React, custom CSS, and FontAwesome icons to deliver a streamlined and responsive interface. In addition to manually setting up the project's configuration for linting, bundling, and transpiling, I also enjoyed deepening my knowledge of React Testing Library and accessibility foundations, plus the challenge of implementing a few features with vanilla JS rather than external libraries.
 
