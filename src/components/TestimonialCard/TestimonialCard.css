@@ -1,5 +1,7 @@
 .testimonial-card {
-	padding: 2rem;
+	margin: 1rem 2rem;
+	padding: 2rem 4rem;
+	background-color: var(--dark-purple);
 }
 
 .testimonial-text {
@@ -22,6 +24,6 @@
 }
 
 .testimonial-role {
-	color: var(--jonquil);
+	color: var(--accent);
 	font-weight: 300;
 }

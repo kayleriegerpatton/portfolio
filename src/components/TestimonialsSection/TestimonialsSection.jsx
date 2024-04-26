@@ -1,7 +1,6 @@
 import React from 'react';
-import TestimonialCard from '../TestimonialCard/TestimonialCard';
 import './TestimonialsSection.css';
-import testimonials from '../../data/testimonials';
+import Carousel from '../Carousel/Carousel';
 
 function TestimonialsSection() {
 	return (
@@ -10,19 +9,11 @@ function TestimonialsSection() {
 			<section id="testimonials-section">
 				<h2 className="section-heading">Testimonials</h2>
 				<h3 className="section-subheading">
-					Discover what my peers have to say about my contributions as a
-					software engineer:
+					Read what my peers have to say about my contributions as a software
+					engineer:
 				</h3>
 				<div className="testimonial-container">
-					{testimonials.map((testimonial) => (
-						<TestimonialCard
-							key={testimonial.id}
-							fullName={testimonial.fullName}
-							text={testimonial.text}
-							roleName={testimonial.role}
-							company={testimonial.company}
-						/>
-					))}
+					<Carousel />
 				</div>
 			</section>
 		</div>
