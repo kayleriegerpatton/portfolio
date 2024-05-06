@@ -1,6 +1,6 @@
 .testimonial-card {
 	margin: 1rem 2rem;
-	padding: 2rem 4rem;
+	padding: 1rem 2rem;
 	background-color: var(--dark-purple);
 }
 
@@ -26,4 +26,16 @@
 .testimonial-role {
 	color: var(--accent);
 	font-weight: 300;
+}
+
+@media (min-width: 576px) {
+	.testimonial-card {
+		padding: 2rem 4rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.testimonial-card {
+		margin: 6rem 12rem;
+	}
 }
