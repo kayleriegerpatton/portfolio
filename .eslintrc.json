@@ -18,6 +18,6 @@
 		"sourceType": "module"
 	},
 	"plugins": ["react", "jest"],
-	"ignorePatterns": ["dist/", "node_modules/"],
+	"ignorePatterns": ["dist/", "node_modules/", "setupTests.js"],
 	"rules": {}
 }

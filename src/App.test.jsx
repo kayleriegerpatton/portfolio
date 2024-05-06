@@ -5,7 +5,7 @@ import React from 'react';
 
 import Home from './pages/Home';
 import App from './App';
-// TODO mock children so console.error resolves
+
 jest.mock('./pages/Home');
 
 describe('App', () => {
