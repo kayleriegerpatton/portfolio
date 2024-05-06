@@ -1,0 +1,24 @@
+/* override slick.css defaults */
+.slick-dots li button:before {
+	color: var(--periwinkle);
+	opacity: 30%;
+}
+
+.slick-dots li.slick-active button:before {
+	color: var(--periwinkle);
+	opacity: 100%;
+}
+
+.slick-prev::before,
+.slick-next::before {
+	font-size: 30px;
+	color: var(--periwinkle);
+	opacity: 100%;
+	line-height: 0;
+}
+
+.slick-prev:focus::before,
+.slick-next:focus::before {
+	color: var(--accent);
+	font-size: 40px;
+}

@@ -10,6 +10,7 @@ header {
 	top: 0;
 	font-size: 1.3rem;
 	background-color: #1b1542;
+	z-index: 1;
 }
 
 #logo {
@@ -64,7 +65,7 @@ nav a:visited {
 }
 
 .nav-icon {
-	color: var(--jonquil);
+	color: var(--accent);
 	margin: 2px 0 0 8px;
 }
 

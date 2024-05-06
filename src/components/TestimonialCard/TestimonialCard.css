@@ -1,0 +1,41 @@
+.testimonial-card {
+	margin: 1rem 2rem;
+	padding: 1rem 2rem;
+	background-color: var(--dark-purple);
+}
+
+.testimonial-text {
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+	line-height: 1.5rem;
+}
+
+.quote-emphasis {
+	font-weight: 600;
+	font-size: 1.5rem;
+	margin: 0 0.5rem;
+}
+
+.testimonial-name {
+	color: var(--periwinkle);
+	font-size: 1.1rem;
+	margin-bottom: 0.5rem;
+	font-weight: 600;
+}
+
+.testimonial-role {
+	color: var(--accent);
+	font-weight: 300;
+}
+
+@media (min-width: 576px) {
+	.testimonial-card {
+		padding: 2rem 4rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.testimonial-card {
+		margin: 6rem 12rem;
+	}
+}

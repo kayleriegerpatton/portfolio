@@ -2,12 +2,6 @@
 	scroll-margin-top: 16vh;
 }
 
-#projects-heading {
-	font-size: 1.3rem;
-	margin-bottom: 2rem;
-	text-transform: uppercase;
-}
-
 #projects-container {
 	display: flex;
 	flex-direction: column;
@@ -27,10 +21,10 @@
 
 .button:hover,
 .button:focus {
-	border: solid 2px var(--jonquil);
+	border: solid 2px var(--accent);
 	cursor: pointer;
-	color: var(--jonquil);
-	background-color: rgb(240, 200, 8, 0.25); /* transparent jonquil */
+	color: var(--accent);
+	background-color: rgb(255, 164, 79, 0.25); /* transparent accent */
 }
 
 @media (min-width: 1000px) {
