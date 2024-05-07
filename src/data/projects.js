@@ -14,6 +14,7 @@ import stockscape from '../images/project-visuals/stockscape.gif';
 import metrikComparison from '../images/project-visuals/metrikRedesign.png';
 import cosmosCLI from '../images/project-visuals/cosmosCLI2.png';
 import cys631Solution from '../images/project-visuals/cys-631Solution.png';
+import personalBrandBoard from '../images/project-visuals/personal-brand-board.png';
 
 const projects = [
 	{
@@ -53,6 +54,20 @@ const projects = [
 		githubUrl: '',
 		deployedUrl: '',
 		year: 2023,
+		archived: false,
+	},
+	{
+		id: 17,
+		title: 'Personal Branding Suite',
+		technologies: ['Graphic Design', 'Canva'],
+		description:
+			'Crafted a cohesive suite of personal branding materials, including CV, cover letter, business cards, LinkedIn banner, and website, showcasing my professional identity and design skills with consistency and flair.',
+		imageSrc: personalBrandBoard,
+		altText:
+			'Brand board with various print and digital materials arranged, including cover letter and CV, LinkedIn banner, business cards, color palette, and mobile phone displaying portfolio site.',
+		githubUrl: '',
+		deployedUrl: '',
+		year: 2024,
 		archived: false,
 	},
 	{
