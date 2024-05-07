@@ -42,6 +42,10 @@
 	color: var(--tropical-indigo);
 }
 
+.project-icon:hover {
+	color: var(--accent);
+}
+
 .github-project-icon {
 	margin-right: 1rem;
 }

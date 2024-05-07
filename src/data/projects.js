@@ -24,7 +24,8 @@ const projects = [
 		technologies: ['TypeScript', 'Material UI', 'WCAG', 'Accessibility'],
 		description: `Replicated GitHub's login page design while implementing accessibility enhancements and refining UI through minor adjustments, demonstrating proficiency in frontend development and attention to detail.`,
 		imageSrc: githubLogin,
-		altText: '',
+		altText:
+			'Side-by-side GitHub login pages with minor visual differences between them.',
 		githubUrl: 'https://github.com/kayleriegerpatton/typescript-login',
 		deployedUrl:
 			'https://typescript-login-kayleriegerpattons-projects.vercel.app/',
@@ -81,7 +82,7 @@ const projects = [
 			'Brand board with various print and digital materials arranged, including cover letter and CV, LinkedIn banner, business cards, color palette, and mobile phone displaying portfolio site.',
 		githubUrl: '',
 		deployedUrl: '',
-		year: 2024,
+		year: 2023,
 		archived: false,
 	},
 	{
