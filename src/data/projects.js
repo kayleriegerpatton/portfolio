@@ -15,18 +15,19 @@ import metrikComparison from '../images/project-visuals/metrikRedesign.png';
 import cosmosCLI from '../images/project-visuals/cosmosCLI2.png';
 import cys631Solution from '../images/project-visuals/cys-631Solution.png';
 import personalBrandBoard from '../images/project-visuals/personal-brand-board.png';
+import githubLogin from '../images/project-visuals/github-comparison.jpeg';
 
 const projects = [
 	{
-		id: 16,
-		title: 'Custom WordPress Styling',
-		technologies: ['CSS', 'HTML', 'Divi Builder', 'WordPress'],
-		description:
-			'Collaborated with UX/UI Designer on client project to enhance WordPress website aesthetics and functionality with custom CSS using the Divi Theme & Builder tool.',
-		imageSrc: cys631Solution,
-		altText: `The 631 Solution website's "Get Started" page and form.`,
-		githubUrl: '',
-		deployedUrl: 'https://631solution.org/',
+		id: 18,
+		title: 'GitHub-style Accessible Login',
+		technologies: ['TypeScript', 'Material UI', 'WCAG', 'Accessibility'],
+		description: `Replicated GitHub's login page design while implementing accessibility enhancements and refining UI through minor adjustments, demonstrating proficiency in frontend development and attention to detail.`,
+		imageSrc: githubLogin,
+		altText: '',
+		githubUrl: 'https://github.com/kayleriegerpatton/typescript-login',
+		deployedUrl:
+			'https://typescript-login-kayleriegerpattons-projects.vercel.app/',
 		year: 2024,
 		archived: false,
 	},
@@ -54,6 +55,19 @@ const projects = [
 		githubUrl: '',
 		deployedUrl: '',
 		year: 2023,
+		archived: false,
+	},
+	{
+		id: 16,
+		title: 'Custom WordPress Styling',
+		technologies: ['CSS', 'HTML', 'Divi Builder', 'WordPress'],
+		description:
+			'Collaborated with UX/UI Designer on client project to enhance WordPress website aesthetics and functionality with custom CSS using the Divi Theme & Builder tool.',
+		imageSrc: cys631Solution,
+		altText: `The 631 Solution website's "Get Started" page and form.`,
+		githubUrl: '',
+		deployedUrl: 'https://631solution.org/',
+		year: 2024,
 		archived: false,
 	},
 	{
