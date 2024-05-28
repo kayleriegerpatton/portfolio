@@ -16,12 +16,19 @@ import cosmosCLI from '../images/project-visuals/cosmosCLI2.png';
 import cys631Solution from '../images/project-visuals/cys-631Solution.png';
 import personalBrandBoard from '../images/project-visuals/personal-brand-board.png';
 import githubLogin from '../images/project-visuals/github-comparison.jpeg';
+import ticTacToe from '../images/project-visuals/tictactoe.png';
 
 const projects = [
 	{
 		id: 18,
 		title: 'GitHub-style Accessible Login',
-		technologies: ['TypeScript', 'Material UI', 'WCAG', 'Accessibility'],
+		technologies: [
+			'TypeScript',
+			'Material UI',
+			'WCAG',
+			'Accessibility',
+			'Vercel',
+		],
 		description: `Replicated GitHub's login page design while implementing accessibility enhancements and refining UI through minor adjustments, demonstrating proficiency in frontend development and attention to detail.`,
 		imageSrc: githubLogin,
 		altText:
@@ -56,6 +63,18 @@ const projects = [
 		githubUrl: '',
 		deployedUrl: '',
 		year: 2023,
+		archived: false,
+	},
+	{
+		id: 19,
+		title: 'Tic Tac Toe API',
+		technologies: ['JavaScript', 'Express', 'Vercel'],
+		description: `Developed an intelligent API for a Tic-Tac-Toe game that analyzes a user-submitted board provided as a query string (e.g., app/?board=x++oo+++x) and returns player O's optimal move. Implements a perfect game strategy, ensuring unbeatable gameplay. Best played via terminal curl request or API dev tool such as Postman or Insomnia. [private repo]`,
+		imageSrc: ticTacToe,
+		altText: `Tic tac toe board. O wins horizontally through the center row.`,
+		githubUrl: 'https://github.com/kayleriegerpatton/tic-tac-toe-api',
+		deployedUrl: 'https://tic-tac-toe-api-theta.vercel.app/',
+		year: 2024,
 		archived: false,
 	},
 	{
